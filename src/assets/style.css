@@ -1,0 +1,58 @@
+section {
+    padding: var(--section-padding);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+a:active {
+    font-weight: bold;
+}
+
+.title {
+    font-size: var(--xxl);
+}
+
+.sub-title {
+    font-size: var(--lg);
+}
+
+.description {
+    font-size: var(--md);
+}
+
+.small-text {
+    font-size: var(--sm);
+}
+
+.btn {
+    padding: var(--xs) var(--xxl);
+    border-radius: var(--xs);
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: var(--box-shadow);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+}

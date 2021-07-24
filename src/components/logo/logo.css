@@ -1,0 +1,15 @@
+.logo{
+    cursor: pointer;
+}
+
+.logo-header{
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo-small-text{
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}

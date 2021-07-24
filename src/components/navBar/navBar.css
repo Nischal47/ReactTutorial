@@ -1,0 +1,21 @@
+@import "../../assets/style.css";
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 46%;
+    min-width: 700px;
+    max-width: 1000px;
+}
+
+.nav-link{
+    cursor: pointer;
+}
